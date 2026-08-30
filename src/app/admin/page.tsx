@@ -1,7 +1,6 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { PrismaClient } from "@prisma/client";
-import { format } from "date-fns"; // Wait, I didn't install date-fns. I'll just use native Intl.DateTimeFormat
 
 const prisma = new PrismaClient();
 
